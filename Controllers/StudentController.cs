@@ -97,7 +97,7 @@ public class StudentController : ControllerBase
     }
 
     [HttpDelete("{id:int}")]
-    public async Task<IActionResult> RemoveAsync(int id)
+    public IActionResult Remove(int id)
     {
 
         try
